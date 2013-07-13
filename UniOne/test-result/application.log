@@ -1,0 +1,346 @@
+12 jul 2013 23:35:37,271 INFO  ~ Starting C:\Users\Irman\Desktop\UniOne
+12 jul 2013 23:35:37,286 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.secure)
+12 jul 2013 23:35:37,288 INFO  ~ Module secure is available (C:\play-1.2.5\modules\secure)
+12 jul 2013 23:35:39,766 WARN  ~ You're running Play! in DEV mode
+12 jul 2013 23:35:40,140 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+12 jul 2013 23:35:53,209 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+12 jul 2013 23:35:56,980 INFO  ~ Application 'UniOne' is now started !
+12 jul 2013 23:36:01,610 ERROR ~ 
+
+@6f0ip7dk2
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:36:01,922 ERROR ~ 
+
+@6f0ip7dk3
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:37:08,081 ERROR ~ 
+
+@6f0ip7dk4
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:37:08,139 ERROR ~ 
+
+@6f0ip7dk5
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:37:12,204 ERROR ~ 
+
+@6f0ip7dk6
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:37:12,255 ERROR ~ 
+
+@6f0ip7dk7
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:37:28,900 ERROR ~ 
+
+@6f0ip7dk8
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:37:28,936 ERROR ~ 
+
+@6f0ip7dk9
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:41:34,953 ERROR ~ 
+
+@6f0ip7dka
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:41:35,011 ERROR ~ 
+
+@6f0ip7dkb
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:47:00,173 ERROR ~ 
+
+@6f0ip7dkc
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:47:00,222 ERROR ~ 
+
+@6f0ip7dkd
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:47:38,797 ERROR ~ 
+
+@6f0ip7dke
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:47:38,841 ERROR ~ 
+
+@6f0ip7dkf
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:56:07,898 ERROR ~ 
+
+@6f0ip7dkg
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:56:07,958 ERROR ~ 
+
+@6f0ip7dkh
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:56:18,286 ERROR ~ 
+
+@6f0ip7dki
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:56:18,329 ERROR ~ 
+
+@6f0ip7dkj
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+12 jul 2013 23:57:47,766 ERROR ~ 
+
+@6f0ip7dkk
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+12 jul 2013 23:57:47,807 ERROR ~ 
+
+@6f0ip7dkl
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+13 jul 2013 00:04:23,620 INFO  ~ Connected to jdbc:mysql://127.0.0.1/UniOneDB?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci
+13 jul 2013 00:04:24,042 ERROR ~ Unsuccessful: create table Course (id bigint not null auto_increment, courseId bigint not null, courseName varchar(255), courseRating integer not null, primary key (id)) ENGINE=InnoDB DEFAULT CHARSET=utf8
+13 jul 2013 00:04:24,042 ERROR ~ Table 'course' already exists
+13 jul 2013 00:04:24,976 ERROR ~ 
+
+@6f0ip7dkm
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+13 jul 2013 00:04:25,071 ERROR ~ 
+
+@6f0ip7dkn
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more
+13 jul 2013 00:04:32,788 ERROR ~ 
+
+@6f0ip7dko
+css.style.css action not found
+
+Action not found
+Action css.style.css could not be found. Error raised is Controller controllers.css.style not found
+
+play.exceptions.ActionNotFoundException: Action css.style.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style not found
+	... 3 more
+13 jul 2013 00:04:32,818 ERROR ~ 
+
+@6f0ip7dkp
+css.style-desktop.css action not found
+
+Action not found
+Action css.style-desktop.css could not be found. Error raised is Controller controllers.css.style-desktop not found
+
+play.exceptions.ActionNotFoundException: Action css.style-desktop.css not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.css.style-desktop not found
+	... 3 more

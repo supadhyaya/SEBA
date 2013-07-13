@@ -1,0 +1,75 @@
+17 Jun 2013 19:21:06,080 INFO  ~ Starting D:\play-1.2.5\play-1.2.5\UniOne
+17 Jun 2013 19:21:07,056 WARN  ~ You're running Play! in DEV mode
+17 Jun 2013 19:21:07,305 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+17 Jun 2013 19:21:20,295 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+17 Jun 2013 19:21:21,661 INFO  ~ Application 'UniOne' is now started !
+17 Jun 2013 19:21:23,122 ERROR ~ 
+
+@6ejhn3a32
+Error during job execution (Bootstrap)
+
+Malformed YAML (In /conf/user.yml around line 3)
+Cannot parse the /conf/user.yml file: found character 	'\t' that cannot start any token
+
+play.exceptions.YAMLException: while scanning for the next token; found character 	'\t' that cannot start any token (in file /conf/user.yml line 3, column 1)
+	at play.test.Fixtures.loadModels(Fixtures.java:240)
+	at Bootstrap.doJob(Bootstrap.java:8)
+	at play.jobs.Job.doJobWithResult(Job.java:50)
+	at play.jobs.Job.call(Job.java:146)
+	at Invocation.Job(Play!)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 3, column 1:
+    	userId: bilal.hasan@tum.de
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:360)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:183)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:592)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:163)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:132)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:124)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:264)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:238)
+	at play.test.Fixtures.loadModels(Fixtures.java:177)
+	... 4 more
+17 Jun 2013 19:21:23,900 ERROR ~ 
+
+@6ejhn3a32
+Internal Server Error (500) for request GET /
+
+Malformed YAML (In /conf/user.yml around line 3)
+Cannot parse the /conf/user.yml file: found character 	'\t' that cannot start any token
+
+play.exceptions.YAMLException: while scanning for the next token; found character 	'\t' that cannot start any token (in file /conf/user.yml line 3, column 1)
+	at play.test.Fixtures.loadModels(Fixtures.java:240)
+	at Bootstrap.doJob(Bootstrap.java:8)
+	at play.jobs.Job.doJobWithResult(Job.java:50)
+	at play.jobs.Job.call(Job.java:146)
+	at Invocation.Job(Play!)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 3, column 1:
+    	userId: bilal.hasan@tum.de
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:360)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:183)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:592)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:163)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:132)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:230)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:124)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:264)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:238)
+	at play.test.Fixtures.loadModels(Fixtures.java:177)
+	... 4 more

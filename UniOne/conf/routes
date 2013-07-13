@@ -1,0 +1,36 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                       Application.index
+
+POST    /										Application.index
+
+# Ignore favicon requests
+GET     /favicon.ico                            404
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+GET		/usercontroller/registerUser			UserController.registerUser
+GET		/usercontroller/loginUser				UserController.loginUser
+GET		/usercontroller/logoutUser				UserController.logoutUser
+GET		/usercontroller/activateUser			UserController.activateUser
+GET		/usercontroller/testajax				UserController.testAjax
+
+GET		/course/getallcourses					CourseController.getAllCourses
+
+# Map Urls of UniOne to pages
+GET     /index        							Application.index
+GET     /rate/{id}								Application.rate
+GET     /browse									Application.browse
+GET		/questions/{id}							Application.questions
+GET		/activate								Application.activate
+
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}
+
+
+# Import Secure routes
+*      /                module:secure

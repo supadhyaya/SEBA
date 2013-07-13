@@ -1,0 +1,34 @@
+.treeview{
+margin-top: 35px;
+}
+
+.treeview ul{ /*CSS for Simple Tree Menu*/
+margin: 3;
+margin-bottom: 14px;
+padding: 3;
+}
+
+.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+background: white url(list.gif) no-repeat left center;
+list-style-type: none;
+padding-left: 22px;
+margin-bottom: 8px;
+margin-top: 8px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+.treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+background: white url(closed.gif) no-repeat left 1px;
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+
+.treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+}
+
+.treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+}
